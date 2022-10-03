@@ -1,1 +1,141 @@
+/*BASICS*/
+body{
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  line-height: 15px
+}
+h1{
+  margin-top: 0;
+  font-family: rockwell, sans-serif;
+}
+h2{
+  font-family: rockwell, sans-serif;
+  font-size: 40px;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px
+}
+p{
+  font-size: 22px;
+  line-height: 2
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  margin: 80px auto;
+  width: 5%
+}
 
+a{
+  color: #CDF0EA;
+  margin: 10px 20px;
+  text-decoration: none
+}
+
+a:hover{
+  color: #D6E5FA;
+}
+/*CLASSES*/
+
+.top{
+  background-color: #CDF0EA;
+  padding-top: 100px;
+}
+.mid{
+  background-color: #222831;
+  padding-top: 20px
+}
+.bottom{
+  background-color: #7895B2;
+  padding: 50px 0 20px;
+
+}
+
+.BC{
+  position: absolute;
+  left: 300px;
+}
+.TC{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.Mnt{
+  position: relative;
+  bottom: 150px;
+}
+.Name{
+  font-family: 'Sacramento', cursive;
+  color: #251B37;
+  padding: 10px;
+  font-size: 565%;
+}
+.intro{
+  font-weight: bold;
+  padding: 20px;
+  font-size: 30px;
+  color: #251B37;
+}
+
+.skill-row{
+  width: 60%;
+  padding: 20px;
+  margin: 50px auto auto;
+  border-radius: 50px;
+  text-align: left;
+}
+
+.cube{
+  width: 20%;
+  float: left;
+  margin: 10px;
+  position: relative;
+  bottom: 20px
+}
+
+.edit{
+  width: 15%;
+  float: right;
+}
+
+.pht{
+  width: 15%;
+  float: left;
+  margin: 10px
+}
+
+
+.footer-link{
+  font-size: 140%;
+  text-decoration: none
+}
+
+.btn{
+  background-color: #CDF0EA;
+  font-size: 200%;
+  margin: 10px auto;
+  padding: 2px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: white;
+  text-decoration: none;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+  line-height: 2
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 1.1rem;
+  padding: 20px;
+}
